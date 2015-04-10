@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eLR-Bp-e9A" customClass="TGDetailDock">
+            <rect key="frame" x="0.0" y="0.0" width="30" height="311"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ibp-1K-n9t" customClass="TGDetailDockItem">
+                    <rect key="frame" x="-7" y="-25" width="45" height="163"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <state key="normal" image="btn_dealinfo.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled" image="btn_dealinfo_pressed.png"/>
+                    <connections>
+                        <action selector="btnClick:" destination="eLR-Bp-e9A" eventType="touchDown" id="Blh-YX-jzd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X1m-cM-plI" customClass="TGDetailDockItem">
+                    <rect key="frame" x="-7" y="77" width="45" height="165"/>
+                    <state key="normal" image="btn_dealweb.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled" image="btn_dealweb_pressed.png"/>
+                    <connections>
+                        <action selector="btnClick:" destination="eLR-Bp-e9A" eventType="touchDown" id="5Iq-el-Yv2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Yds-FN-Jfu" customClass="TGDetailDockItem">
+                    <rect key="frame" x="-7" y="174" width="45" height="165"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <state key="normal" image="btn_merchant.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled" image="btn_merchant_pressed.png"/>
+                    <connections>
+                        <action selector="btnClick:" destination="eLR-Bp-e9A" eventType="touchDown" id="UIS-k7-QgM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="infoBtn" destination="ibp-1K-n9t" id="N3U-Lx-4P9"/>
+            </connections>
+            <point key="canvasLocation" x="773" y="279.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_dealinfo.png" width="30" height="110"/>
+        <image name="btn_dealinfo_pressed.png" width="30" height="110"/>
+        <image name="btn_dealweb.png" width="30" height="110"/>
+        <image name="btn_dealweb_pressed.png" width="30" height="110"/>
+        <image name="btn_merchant.png" width="30" height="110"/>
+        <image name="btn_merchant_pressed.png" width="30" height="110"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
