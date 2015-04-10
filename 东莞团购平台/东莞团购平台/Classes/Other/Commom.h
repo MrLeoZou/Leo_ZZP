@@ -54,8 +54,7 @@
 //底部dock栏高度
 #define kDockHeight 44
 
-//6.
-// 顶部菜单项的宽高
+//6.顶部菜单项的宽高
 #define kTopMenuItemW 100
 #define kTopMenuItemH 45
 

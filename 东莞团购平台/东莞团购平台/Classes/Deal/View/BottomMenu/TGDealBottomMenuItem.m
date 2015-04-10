@@ -38,7 +38,9 @@
     [super setFrame:frame];
 }
 
-- (void)setHighlighted:(BOOL)highlighted {} 
+- (void)setHighlighted:(BOOL)highlighted
+{ }
+
 
 - (NSArray *)titles
 {
