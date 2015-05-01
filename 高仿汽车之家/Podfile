@@ -1,8 +1,0 @@
-pod "MJRefresh"
-pod "AFNetWorking"
-pod "SVProgressHUD"
-pod "CocoaLumberjack"
-pod "FMDB"
-pod "MJExtension"
-pod "MWPhotoBrowser"
-pod "Reachability"
